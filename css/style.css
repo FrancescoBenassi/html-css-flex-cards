@@ -34,7 +34,7 @@ MAIN
 
 .container {
     margin: auto;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 p {
@@ -54,6 +54,7 @@ p {
     flex-basis: calc(100% / 3 - 30px);
     height: 100px;
     background-color: black;
+    display: flex;
 }
 
 .row-1 {
@@ -62,5 +63,48 @@ p {
 
 .row-2 {
     margin: 25px 15px 0px 15px;
+}
+
+img {
+    max-height: 100%;
+}
+
+.text {
+    color: white;
+    margin: 10px 0px 10px 10px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.work {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.email {
+    color: rgb(0, 191, 255);
+    font-size: 0.8rem;
+    border: 1px solid black;
+}
+
+.email:hover {
+    border: 1px dotted rgb(128, 128, 128);
+}
+
+a {
+    display: none;
+}
+
+.email:hover a {
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128);
 }
     
